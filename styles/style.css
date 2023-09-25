@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #ffffff;
+}
+
+.container {
+    overflow: hidden;
+}
+
+.btn-outline-info {
+    color: #007BFF;
+    border: 1px solid #007BFF;
+}
+
+.hvr-sweep-to-right::before {
+    background: #ecd6dd;
+}
+
+h2, h1, h3 {
+    text-align: center;
+}
+
+.white-popup {
+    position: relative;
+    background: #FFF;
+    padding: 20px;
+    width: auto;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.accordion-button::after {
+    background-image: url("../images/img_10.png");
+    transform: rotate(0deg);
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("../images/img_10.png");
+    transform: rotate(180deg);
+}
+button.slick-prev{
+    z-index: 2;
+    margin-left: 35px;
+
+}
+.slick-next{
+    z-index: 2;
+    margin-right: 95px;
+}
+.slick-prev::before {
+    content: url("../images/img_12.png");
+}
+.slick-next::before{
+    content: url("../images/img_13.png");
+}
